@@ -2,3 +2,49 @@ body {
     margin: 0 auto;
     font-family: 'Poppins', sans-serif;
 }
+.navbar {
+    margin-top: 10px;
+}
+.navbar-brand{
+    width: 200px;
+}
+.nav-item {
+    padding: 5px 20px;
+    margin: 0 5px;
+    transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+}
+.nav-item .nav-link {
+    color: #000 !important;
+    font-size: 16px;
+    transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+}
+.nav-item.active{
+    background: #21B573;
+    border-radius: 33px;
+    -webkit-border-radius: 33px;
+    -moz-border-radius: 33px;
+    -ms-border-radius: 33px;
+    -o-border-radius: 33px;
+}
+.nav-item.active .nav-link {
+    color: white !important;
+}
+.nav-item:hover {
+    border-radius: 33px;
+    -webkit-border-radius: 33px;
+    -moz-border-radius: 33px;
+    -ms-border-radius: 33px;
+    -o-border-radius: 33px;
+    background: #21B573;
+}
+.nav-item:hover .nav-link {
+    color: white !important;
+}
