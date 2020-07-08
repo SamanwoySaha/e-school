@@ -20,7 +20,7 @@ p {
     width: 200px;
 }
 .nav-item {
-    padding: 3px 24px;
+    padding: 2px 24px;
     margin: 0 5px;
     transition: all linear 0.4s;
     -webkit-transition: all linear 0.4s;
@@ -40,10 +40,6 @@ p {
 .nav-item.active{
     background: #21B573;
     border-radius: 33px;
-    -webkit-border-radius:;
-    -moz-border-radius:;
-    -ms-border-radius:;
-    -o-border-radius:;
 }
 .nav-item.active .nav-link {
     color: white !important;
@@ -92,13 +88,17 @@ p {
     background: #21B573;
     padding: 10px 28px;
     border-radius: 33px;
-    -webkit-border-radius:;
-    -moz-border-radius:;
-    -ms-border-radius:;
-    -o-border-radius:;
     border: none;
     margin-top: 10px;
+    transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
 }    
+.green-button:hover {
+    background-color: #413960;
+}
 .carousel-indicators {
     bottom: -70px;
 }
@@ -213,5 +213,61 @@ p {
     line-height: 30px;
 }    
 /* == testimonial end ==  */
+
+/* == footer starts */
+footer {
+    background-color: #282531;
+    padding-top: 50px;
+}
+footer h4 {
+    font-weight: 700;
+}
+footer p,li a {
+    color: white;
+    font-weight: 300;
+    line-height: 30px;
+    font-size: 15px;
+}
+footer li {
+    list-style: none;
+    cursor: pointer;
+}
+footer li a {
+    transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+}
+footer li a:hover {
+    color: lightsteelblue;
+    text-decoration: none;
+}
+.blog-topic {
+    font-weight: 700;
+}
+form input {
+    border-radius: 10px !important;
+    border: none;
+    margin-bottom: 10px;
+    -webkit-border-radius: 10px !important;
+    -moz-border-radius: 10px !important;
+    -ms-border-radius: 10px !important;
+    -o-border-radius: 10px !important;
+}
+::placeholder {
+    font-size: 15px;
+}
+footer form button {
+    border-radius: 10px !important;
+    margin-top: 0px !important;
+}
+.footer-bottom {
+    font-size: 12px;
+    padding: 40px 0;
+    text-align: center;
+    font-weight: 300;
+}
+/* == footer ends */
 
 
