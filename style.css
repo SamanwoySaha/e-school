@@ -24,10 +24,6 @@ p {
     padding: 2px 24px;
     margin: 0 5px;
     transition: all linear 0.4s;
-    -webkit-transition: all linear 0.4s;
-    -moz-transition: all linear 0.4s;
-    -ms-transition: all linear 0.4s;
-    -o-transition: all linear 0.4s;
 }
 .nav-item .nav-link {
     color: #000 !important;
