@@ -1,0 +1,694 @@
+/* == common css starts == */
+body {
+    padding: 0;
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+}
+.container {
+    margin-bottom: 100px;
+}
+p {
+    font-size: 16px;
+    color: #6C6B6B;
+}
+/* == common css ends == */
+
+/* == navbar starts == */
+.navbar {
+    margin-top: 10px;
+}
+.navbar-brand{
+    width: 200px;
+}
+.nav-item {
+    padding: 2px 24px;
+    margin: 0 5px;
+    transition: all linear 0.4s;
+}
+.nav-item .nav-link {
+    color: #000 !important;
+    font-size: 16px;
+    border-radius: 33px;
+    transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+}
+.nav-item.active{
+    background: #21B573;
+    border-radius: 33px;
+}
+.nav-item.active .nav-link {
+    color: white !important;
+}
+.nav-item:hover {
+    border-radius: 33px;
+    -webkit-border-radius: 33px;
+    -moz-border-radius: 33px;
+    -ms-border-radius: 33px;
+    -o-border-radius: 33px;
+    background: #21B573;
+}
+.nav-item:hover .nav-link {
+    color: white !important;
+}
+/* == navbar ends == */
+
+/* == banner starts == */
+.banner {
+    margin-bottom: 50px;
+    padding: 170px 0px 5px;
+}
+.green-bg {
+    background-color: #F0FFF0;
+}
+.carousel {
+    padding: 0 8px;
+}
+.orange-text {
+    color: #FD511A; 
+}
+.heading {
+    color: #000;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 70px;
+}
+.green-text {
+    color: #21B573;
+}
+.carousel p {
+    line-height: 30px;
+}
+.green-button {
+    color: white;
+    background: #21B573;
+    padding: 10px 28px;
+    border-radius: 33px;
+    border: none;
+    margin-top: 10px;
+    transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+}    
+.green-button:hover {
+    background-color: #413960;
+}
+.carousel-indicators {
+    bottom: -70px;
+}
+.carousel-indicators li {
+    width: 12px;
+    height: 7px;
+    background-color: #6C6B6B;
+    border: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.carousel-indicators li.active {
+    width: 20px;
+    background-color: #21B573;
+}
+.carousel-control-prev {
+    top: 110px;
+    left: -90px;
+    width: 5%;
+}
+.carousel-control-next {
+    top: 110px;
+    right: -90px;
+    width: 5%;
+}
+.slider-arrow {
+    font-size: 22px;
+    background-color: #21B573;
+    padding: 15px 18px;
+    border-radius: 50%;
+    color: white;
+    transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+}
+/* == banner ends == */
+
+/* == catagories start == */
+.card {
+    border: none;
+    background-color: #F8FFFB;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+}
+.catagories .card {
+    text-align: center;
+}
+.catagories .card:hover {
+    background-color: white;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+.catagories .card img {
+    width: 60px;
+    margin-top: 50px;
+}
+#book-icon {
+    width: 50px;
+}
+.card-title {
+    color: #413960;
+}
+.card p {
+    color: #585859;
+}
+.catagories .card-text {
+    padding-bottom: 25px;
+    margin-top: -8px;
+}
+/* == catagories end == */
+
+/* == courses start == */
+.sub-heading {
+    font-size: 36px;
+    font-weight: 700;
+    color: #413960;
+    margin-bottom: 70px;
+}
+#courses .card {
+    background-color: white;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);;
+}
+#courses .card:hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    z-index: 1;
+}
+#courses .card img {
+    transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -o-transform: scale(0.9);
+    margin-top: 5px;
+}
+.card-footer {
+    border-top: none;
+    background-color: white;
+    border-radius: 10px !important;
+    -webkit-border-radius: 10px !important;
+    -moz-border-radius: 10px !important;
+    -ms-border-radius: 10px !important;
+    -o-border-radius: 10px !important;
+}
+.card-footer p {
+    font-size: 16px;
+    font-weight: 500;
+}
+.card-footer i {
+    margin-right: 5px;
+}
+/* == courses end== */
+
+/* == testimonial start ==  */
+#testimonial img {
+    width: 120px;
+}
+#testimonial p {
+    color: #000;
+    font-size: 15px;
+    line-height: 30px;
+}    
+#testimonial .carousel-control-prev {
+    top: 30px;
+    left: 40px;
+}
+#testimonial .carousel-control-next {
+    top: 30px;
+    right: 40px;
+}
+#testimonial .slider-arrow{
+    color: #21B573;
+    background-color: white;
+    box-shadow: 10px 10px 40px #21b472;;
+}
+/* == testimonial end ==  */
+
+/* == footer starts */
+footer {
+    background-color: #282531;
+    padding-top: 50px;
+}
+footer .container {
+    margin-bottom: 0px;
+}
+footer h4 {
+    font-weight: 700;
+}
+footer p {
+    color: white;
+    font-weight: 300;
+    line-height: 30px;
+    font-size: 15px;
+}
+footer li {
+    list-style: none;
+    cursor: pointer;
+}
+footer li a {
+    color: white;
+    font-weight: 300;
+    line-height: 30px;
+    font-size: 15px;
+    transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+}
+footer li a:hover {
+    color: lightsteelblue;
+    text-decoration: none;
+}
+.blog-topic {
+    font-weight: 700;
+}
+form input {
+    border-radius: 10px !important;
+    border: none;
+    margin-bottom: 10px;
+    -webkit-border-radius: 10px !important;
+    -moz-border-radius: 10px !important;
+    -ms-border-radius: 10px !important;
+    -o-border-radius: 10px !important;
+}
+::placeholder {
+    font-size: 15px;
+}
+footer form button {
+    border-radius: 10px !important;
+    margin-top: 0px !important;
+}
+.footer-bottom {
+    font-size: 12px;
+    padding: 30px 0;
+    text-align: center;
+    font-weight: 300;
+    margin-bottom: 0px;
+}
+/* == footer ends */
+
+/* == responsive css starts == */
+@media (max-width: 575px) {
+    .container {
+        margin-bottom: 70px;
+    }
+
+    /* == navbar css starts == */
+    .navbar-brand {
+        position: relative;
+        left: 20px;
+    }
+    .nav-item {
+        text-align: center;
+        background-color: white;
+        border-radius: 33px;
+        -webkit-border-radius: 33px;
+        -moz-border-radius: 33px;
+        -ms-border-radius: 33px;
+        -o-border-radius: 33px;
+}
+    .navbar-toggler {
+        position: relative;
+        right: 20px;
+    }
+    /* == navbar css ends */
+
+    /* == banner css starts == */
+    .banner {
+        margin-bottom: 50px;
+        padding: 120px 0px 5px;
+        text-align: center;
+    }
+    .heading {
+        font-size: 32px;
+        line-height: 42px;
+        padding: 0 50px;
+        margin-bottom: 15px;
+    }
+    .carousel p {
+        font-size: 14px;
+        line-height: 24px;
+        padding: 0px 20px;
+    }
+    .banner img {
+        width: 90%;
+        margin-top: 30px;
+    }
+    .carousel-indicators {
+        bottom: -50px;
+    }
+    /* == banner css ends == */
+
+    /* == catagories css starts == */
+    .card {
+        margin: 3px 40px;
+        transform: scale(0.9);
+        -webkit-transform: scale(0.9);
+        -moz-transform: scale(0.9);
+        -ms-transform: scale(0.9);
+        -o-transform: scale(0.9);
+    }
+    /* == catagories css ends == */
+
+    /* == courses css starts == */
+    .sub-heading {
+        font-size: 28px;
+        margin-bottom: 30px;
+    }
+    #courses .card {
+        margin: 0px;
+}
+    #courses .card:hover {
+        transform: scale(1);
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+        z-index: 1;
+    }
+    /* == courses css ends == */
+
+    /* == testimonial starts == */
+    #testimonial {
+        text-align: center;
+    }
+    #testimonial img{
+        margin: 20px 0px;
+    }
+    #testimonial p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    /* == testimonial ends == */
+
+    /* == footer starts == */
+    #blog {
+        width: 80%;
+    }
+    .special-align {
+        text-align: center;
+    }
+    footer p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    footer button {
+        margin-bottom: 30px;
+    }
+    footer ul {
+        padding-left: 0px;
+    }
+    footer ul li a{
+        font-size: 12px;
+        line-height: 24px;
+    }
+    .blog-topic {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .footer-bottom {
+        font-size: 10px;
+    }
+    /* == footer ends == */
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .container {
+        margin-bottom: 80px;
+    }
+
+    /* == navbar css starts == */
+    .navbar-brand {
+        position: relative;
+        left: 10px;
+    }
+    .nav-item {
+        text-align: center;
+        background-color: white;
+        border-radius: 33px;
+        -webkit-border-radius: 33px;
+        -moz-border-radius: 33px;
+        -ms-border-radius: 33px;
+        -o-border-radius: 33px;
+    }
+    .navbar-toggler {
+        position: relative;
+        right: 10px;
+    }
+    /* == navbar css ends */
+
+    /* == banner css starts == */
+    .banner {
+        margin-bottom: 50px;
+        padding: 120px 0px 5px;
+        text-align: center;
+    }
+    .heading {
+        font-size: 34px;
+        line-height: 44px;
+        padding: 0 50px;
+        margin-bottom: 15px;
+    }
+    .carousel p {
+        font-size: 15px;
+        line-height: 24px;
+        padding: 0px 20px;
+    }
+    .banner img {
+        margin-top: 30px;
+    }
+    .carousel-indicators {
+        bottom: -60px;
+    }
+    /* == banner css ends == */
+
+    /* == catagories css starts == */
+    .card {
+        margin: 10px 0px;
+    }
+    .catagories .card-title {
+        font-size: 16px;
+    }
+    .catagories .card-text {
+        padding-top: 1px;
+        font-size: 12px;
+    }
+    /* == catagories css ends == */
+
+    /* == courses css starts == */
+    .sub-heading {
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+    #courses p, button {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    #courses .card {
+        text-align: center;
+        margin: 0px;
+        transform: scale(0.9);
+        -webkit-transform: scale(0.9);
+        -moz-transform: scale(0.9);
+        -ms-transform: scale(0.9);
+        -o-transform: scale(0.9);
+    }
+    #courses .card:hover {
+        transform: scale(0.95);
+        -webkit-transform: scale(0.95);
+        -moz-transform: scale(0.95);
+        -ms-transform: scale(0.95);
+        -o-transform: scale(0.95);
+}
+    #courses .card img {
+        transform: scale(0.8);
+        -webkit-transform: scale(0.8);
+        -moz-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+        -o-transform: scale(0.8);
+}
+    #courses .card-footer p{
+        font-size: 12px;
+        margin: 0px 0px;
+    }
+    /* == courses css ends == */
+
+    /* == testimonial starts == */
+    #testimonial {
+        text-align: center;
+    }
+    #testimonial img{
+        margin: 20px 0px;
+    }
+    #testimonial p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    /* == testimonial ends == */
+
+    /* == footer starts == */
+    #blog {
+        width: 80%;
+    }
+    .special-align {
+        text-align: center;
+    }
+    footer p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    footer button {
+        margin-bottom: 30px;
+    }
+    footer ul {
+        padding-left: 0px;
+    }
+    footer ul li a{
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .blog-topic {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .footer-bottom {
+        font-size: 10px;
+    }
+    /* == footer ends == */
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .container {
+        margin-bottom: 90px;
+    }
+    /* == navbar css starts == */
+    .nav-item {
+        text-align: center;
+        background-color: white;
+        border-radius: 33px;
+        -webkit-border-radius: 33px;
+        -moz-border-radius: 33px;
+        -ms-border-radius: 33px;
+        -o-border-radius: 33px;
+    }
+    /* == navbar css ends  == */
+
+    /* == banner css starts == */
+    .heading {
+        font-size: 34px;
+        line-height: 44px;   
+        margin-bottom: 15px;
+    }
+    .carousel-indicators {
+        bottom: -70px;
+    }
+    /* == banner css ends == */
+
+    /* == catagories css starts == */
+    .catagories .card-title {
+        font-size: 16px;
+        padding: 0px 20px;
+    }
+    .catagories .card-text {
+        padding-top: 1px;
+        font-size: 12px;
+    }
+    /* == catagories css starts == */
+
+    /* == courses css starts == */
+    .sub-heading {
+        font-size: 32px;
+        margin-bottom: 30px;
+    }
+    #courses .card {
+        text-align: center;
+        margin: 0px;
+        transform: scale(0.9);
+        -webkit-transform: scale(0.9);
+        -moz-transform: scale(0.9);
+        -ms-transform: scale(0.9);
+        -o-transform: scale(0.9);
+    }
+    #courses .card:hover {
+        transform: scale(0.95);
+        -webkit-transform: scale(0.95);
+        -moz-transform: scale(0.95);
+        -ms-transform: scale(0.95);
+        -o-transform: scale(0.95);
+}
+    #courses .card img {
+        transform: scale(0.8);
+        -webkit-transform: scale(0.8);
+        -moz-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+        -o-transform: scale(0.8);
+}
+    #courses .card-footer p{
+        font-size: 14px;
+        margin: 0px;
+    }
+    /* == courses css ends == */
+
+    /* == testimonial starts == */
+    #testimonial .sub-heading {
+        margin-bottom: 50px;
+    }
+    #testimonial img{
+        margin: 20px 0px;
+    }
+    #testimonial p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    /* == testimonial ends == */
+
+    /* == footer starts == */
+    footer p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    footer ul {
+        padding-left: 0px;
+    }
+    footer ul li a{
+        font-size: 14px;
+        line-height: 24px;
+    }
+    footer h4 {
+        font-size: 20px;
+    }
+    .footer-bottom {
+        font-size: 10px;
+    }
+    /* == footer ends == */
+}
+/* == responsive css ends == */
+
+
