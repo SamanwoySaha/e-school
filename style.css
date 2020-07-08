@@ -1,7 +1,18 @@
+/* == common css starts == */
 body {
     margin: 0 auto;
     font-family: 'Poppins', sans-serif;
 }
+.container {
+    margin-bottom: 100px;
+}
+p {
+    font-size: 16px;
+    color: #6C6B6B;
+}
+/* == common css ends == */
+
+/* == navbar starts == */
 .navbar {
     margin-top: 10px;
 }
@@ -48,3 +59,65 @@ body {
 .nav-item:hover .nav-link {
     color: white !important;
 }
+/* == navbar ends == */
+
+/* == banner starts == */
+.banner {
+    padding: 170px 0px 5px;
+}
+.green-bg {
+    background-color: #F0FFF0;
+}
+.carousel {
+    padding: 0 8px;
+}
+.orange-text {
+    color: #FD511A; 
+}
+.heading {
+    color: #000;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 70px;
+}
+.green-text {
+    color: #21B573;
+}
+.carousel p {
+    line-height: 30px;
+}
+.green-button {
+    color: white;
+    background: #21B573;
+    padding: 12px 28px;
+    border-radius: 33px;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+    border: none;
+    margin-top: 10px;
+}    
+.carousel-indicators {
+    bottom: -70px;
+}
+.carousel-indicators li {
+    width: 12px;
+    height: 7px;
+    background-color: #6C6B6B;
+    border: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.carousel-indicators li.active {
+    width: 20px;
+    background-color: #21B573;
+}
+/* == banner ends == */
+
+/* == catagories start == */
+
+/* == catagories end == */

@@ -5,51 +5,121 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>E-school</title>
-        <!-- google fonts -->
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap"
-            rel="stylesheet">
-        <!-- bootstrap cdn -->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-            integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-        <!--stylesheet  -->
-        <link rel="stylesheet" href="style.css">
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/js/all.min.js">
+    <!-- bootstrap cdn -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!--stylesheet  -->
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <!-- navbar starts -->
-    <header class="container">
-        <nav class="navbar navbar-expand-lg navbar-light sticky-top">
-            <a class="navbar-brand" href="#">
-                <img class="img-fluid" src="images/ICON/Logo.png" alt="logo">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Books <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#courses">Courses</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#others">Others</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#blog">Blog</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#sign-in">Sign-in</a>
-                    </li>
-                </ul>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img class="img-fluid" src="images/ICON/Logo.png" alt="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Books <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#courses">Courses</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#others">Others</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#blog">Blog</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#sign-in">Sign-in</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
     </header>
     <!-- navbar ends -->
 
+    <!-- banner starts -->
+    <section class="banner green-bg">
+        <div class="container">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row d-flex justify-content-center">
+                            <div class="col-md-6">
+                                <p class="orange-text">Are you ready to Learn?</p>
+                                <h1 class="heading">Learn With fun on <span class="green-text">any schedule</span></h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Varius blandit facilisis
+                                    quam netus.</p>
+                                <button class="green-button">Get Started</button>
+                            </div>
+                            <div class="col-md-6">
+                                <img class="img-fluid" src="images/Photos/Illustration.png" alt="banner1">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row d-flex justify-content-center">
+                            <div class="col-md-6">
+                                <p class="orange-text">Are you ready to Learn?</p>
+                                <h1 class="heading">Reading for joy &amp; <span class="green-text">pleasure</span></h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Varius blandit facilisis
+                                    quam netus.</p>
+                                <button class="green-button">Get Started</button>
+                            </div>
+                            <div class="col-md-6">
+                                <img class="img-fluid" src="images/Photos/Illustration.png" alt="banner1">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row d-flex justify-content-center">
+                            <div class="col-md-6">
+                                <p class="orange-text">Are you ready to Learn?</p>
+                                <h1 class="heading">Learn to explore <span class="green-text">Ocean of knowledge</span>
+                                </h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Varius blandit facilisis
+                                    quam netus.</p>
+                                <button class="green-button">Get Started</button>
+                            </div>
+                            <div class="col-md-6">
+                                <img class="img-fluid" src="images/Photos/Illustration.png" alt="banner1">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- banner ends -->
 
+    <!--  -->
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
