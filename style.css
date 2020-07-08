@@ -180,6 +180,14 @@ p {
     -o-transform: scale(1.1);
     z-index: 1;
 }
+#courses .card img {
+    transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -o-transform: scale(0.9);
+    margin-top: 5px;
+}
 .card-footer {
     border-top: none;
     background-color: white;
@@ -194,5 +202,16 @@ p {
     font-weight: 500;
 }
 /* == courses end== */
+
+/* == testimonial start ==  */
+#testimonial img {
+    width: 120px;
+}
+#testimonial p {
+    color: #000;
+    font-size: 15px;
+    line-height: 30px;
+}    
+/* == testimonial end ==  */
 
 
