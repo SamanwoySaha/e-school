@@ -6,6 +6,7 @@
 A Responsive Landing Page for a school or any educational organization. It display the available courses, neccessary details about organization and testimonials.
 
 ### Features:
+- Fully Responsive
 - Added available courses
 - Added testimonials
 - Added details about organization.
